@@ -1,0 +1,115 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>SJSU BSU | MSC </title>
+    <meta name="description" content="SJSU's BSU My Spartan Connection page">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- SCROLLS (CSS) -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- SPELLS (Scripts) -->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+  </head>
+
+  <!-- ng-inclue used for sidebar -->
+  <body ng-app="">
+    <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- == NAVIGATION == -->
+    
+    <div ng-include="'includes/nav.html'"></div>
+
+    <!-- == MAIN, SIDEBAR, & FOOTER == -->
+    <div class="container">
+
+      <!-- MASTER ROW (Main and Sidebar) -->
+      <div class="row">
+        <!-- Main Content -->
+        <div class="col-sm-8">
+
+          <!-- Page Title 
+          <div class="row">
+            <div class="well">
+              <h2> My Spartan Connection</h2>
+            </div>
+          </div> -->
+
+          <!-- Content -->
+          <div class="row">
+            <div class="panel panel-default"> 
+              <div class="panel-heading"><h2>My Spartan Connection</h2></div>
+              <div class="panel-body">
+                <p>    My Spartan Connection is essentially a "help desk" for African American/Black students with students defining what kind of assistance they need.  The Faculty and Staff who have allowed their information to be shared in this manner consent to being part of a support network that African American/ Black students may access if the need arises.</p>
+                <p>   Students may access various faculty and staff in the network in case of emergency or if they simply feel that they want to talk; are in need of academic guidance, personal or emotional assistance, mentoring or are requiring assistance resulting from a range of experiences including but not limited to home sickness, a bad roommate situation or violence resulting from bullying, bad dates or matters extremely personal.</p>
+                <p>    <strong>My Spartan Connection <u>is not</u> meant to take the place of campus services <u>nor is it an alternative</u> to the university police or emergency services or regular campus counseling or academic advising services.</strong></p>
+                <p> It is merely a resource in the event a student needs help, someone to talk /vent to and does not know who to call. Our role is to make sure the person is in a safe space, and to answer questions as appropriate and/or refer to the appropriate resource or professional. While confidentiality will be protected to the extent permitted by law and campus policy, individual staff may report information shared with relevant entities if deemed necessary to protect the safety of the student and fair/equitable treatment of the campus community.</p>
+
+                <div class="well">
+                <h4>Spartan Connection Resources List:</h4>
+                <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#scrTable">View</button>
+                <a href="dl/scr_table.xlsx">Download (.xlsx)</a>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="scrTable" role="dialog">
+                  <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content scr-table">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Spartan Connection Resources List</h4>
+                      </div>
+                      <div class="modal-body">
+
+                        <div ng-include="'includes/scr_table.html'"></div>
+                        
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Modal -->
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <!-- Sidebar -->
+        <div class="col-sm-4">
+          <div ng-include="'includes/sidebar.html'"></div>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <div class="row row-centered">
+        <footer>
+          <div ng-include="'includes/footer.html'"></div>
+        </footer>
+      </div>
+
+    </div>
+    <!-- == END: MAIN, SIDEBAR, & FOOTER == -->
+
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+
+   </body>
+  </html>
