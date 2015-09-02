@@ -1,6 +1,18 @@
 SJSU BSU | San Jose State University &copy; 2015 | <a href="mailto:mason.itkin@sjsu.edu">Contact Webmaster</a> | Unique Visitors: <a href="http://www.amazingcounters.com"><img border="0" src="http://cc.amazingcounters.com/counter.php?i=3186631&c=9560206" height="5%" width="5%" alt="AmazingCounters.com"></img></a>
 
-<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. 
+    <!--Navigation Hilighting -->
+    <script>
+      var url = window.location;
+      // Will only work if string in href matches with location
+      $('ul.nav a[href="'+ url +'"]').parent().addClass('active');
+
+      // Will also work for relative and absolute hrefs
+      $('ul.nav a').filter(function() {
+        return this.href == url;
+      }).parent().addClass('active');
+    </script>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID.
       <script>
           (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
           function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
