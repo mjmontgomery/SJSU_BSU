@@ -1,0 +1,858 @@
+GPA_Calc3.php	GPA Calculator	Handout
+handouts/Ed_Planner.xls	Academic Planner	Handout
+handouts/GPA_Calculation.pdf	Calculating Grade Point Average	Handout
+handouts/Grade_checks_TEMPLATE.xls	Grade Checks	Handout
+handouts/Office_Info.ppt	Offices and Locations	Contact
+/time_management.xls	Time Management Toolkit (XLS)	Handout
+http://ad.sjsu.edu/	Art and Design Department	Department
+http://artic.sjsu.edu/static/catalog/cbe.html	ACT-PEP: Credit by Exam	Policy
+http://artic.sjsu.edu/web-dbgen/artic/all-course-to-course.html	Community College Articulation (Class to Class)	Transfer
+http://artic.sjsu.edu/web-dbgen/artic/all-ge.html	Community College Articulation (General Education)	Transfer
+http://artic.sjsu.edu/web-dbgen/artic/all-school-to-school.html	Community College Articulation (Major Courses)	Transfer
+http://artic.sjsu.edu/web-dbgen/narr/catalog/rec-1933.html	Proficiency Exam Program (PEP)	Test
+http://as.sjsu.edu/	Associated Students	Organization
+http://as.sjsu.edu/ascdc/index.jsp	Day Care Services	Service
+http://as.sjsu.edu/ascdc/index.jsp?val=ascdc_admin_fees	Baby Sitting Services	Service
+http://as.sjsu.edu/ascr/index.jsp	Recreation on Campus	Recreation
+http://as.sjsu.edu/ascsc/index.jsp	Associated Students Computer Lab	Service
+http://as.sjsu.edu/ascsc/index.jsp?val=csc_lrp	Computer Rental	Service
+http://as.sjsu.edu/ascsc/index.jsp?val=csc_repair	Personal Computer Repair	Service
+http://as.sjsu.edu/asgov/	Student Government	Organization
+http://as.sjsu.edu/asgsc/index.jsp?val=gsc_book	Book Loan Program	Service
+http://as.sjsu.edu/asgsc/index.jsp?val=gsc_services&text=StudentHealthInsurance	CSU Health Link	Service
+http://as.sjsu.edu/ashouse/index.jsp?val=bbqandrecreation	Barbecue Pits and Recreation	Recreation
+http://as.sjsu.edu/asps/	AS Print Shop	Service
+http://as.sjsu.edu/asps/index.jsp	AS Print Shop: Printing Services	Service
+http://as.sjsu.edu/asts/	Public Transportation	Transportation
+http://as.sjsu.edu/asts/index.jsp?val=sjsu_bicycles	Bicycles on Campus	Service
+http://as.sjsu.edu/cccac/	Cesar E.Chavez Community Action Center	Program
+http://as.sjsu.edu/cheer/index.jsp?val=cheer_home	Cheerleading at San Jose State	Athletics
+http://books.half.ebay.com/	Half.com	Books
+http://careercenter.sjsu.edu/	Career Center	Service
+http://careercenter.sjsu.edu/events_calendar/events_calendar.html#EmployerConnections	Job Fairs on Campus	Career
+http://careercenter.sjsu.edu/students/experience/internships/internships.html	Internships	Career
+http://careercenter.sjsu.edu/students/explore/tutorial/exploring_majors.html	How to Choose a Major	How-to
+http://careercenter.sjsu.edu/students/explore/what_can_i_do/what_can_i_do.html	What Can I Do With My Major?	How-to
+http://careercenter.sjsu.edu/students/launch/job_search/job_search.html	Job Search	Career
+http://careercenter.sjsu.edu/students/students.html	Career Planning	Career
+http://housing.sjsu.edu/	On Campus Housing	Housing
+http://housing.sjsu.edu/pros_community.html	Themed Housing Communities	Housing
+http://housing.sjsu.edu/pros_pricing.html	Housing Rates and Prices	Housing
+http://housing.sjsu.edu/Student%20Rates/rates/MealsRRP.pdf	Meal Plans	Housing
+http://ies.sjsu.edu/ou/	Open University	Program
+http://info.sjsu.edu/cgi-bin/pdfserv?atok=soc	Class Schedules from 2005	Class
+http://info.sjsu.edu/home/admission.html	Student Admissions	Policy
+http://info.sjsu.edu/home/catalog.html	College Catalog	Class
+http://info.sjsu.edu/home/schedules.html	Class Schedules [HTML]	Class
+http://info.sjsu.edu/static/admission/impaction.html	Impaction Information	Policy
+http://info.sjsu.edu/static/admission/international.html	International Students	Policy
+http://info.sjsu.edu/static/admission/remediation.html	Remediation Policy	Policy
+http://info.sjsu.edu/static/catalog/grades.html	Grading System	Policy
+http://info.sjsu.edu/web-dbgen/catalog/degrees/all-degrees.html	List of Majors and Degrees	Class
+http://info.sjsu.edu/web-dbgen/catalog/departments/all-departments.html	Major Departments	Class
+http://info.sjsu.edu/web-dbgen/catalog/departments/MAS.html	Mexican American Studies Department	Department
+http://info.sjsu.edu/web-dbgen/narr/static/admission/international.html	International Student Fees	Finance
+http://info.sjsu.edu/web-dbgen/narr/static/catalog/ge.html	General Education Requirements	Policy
+http://info.sjsu.edu/web-dbgen/narr/static/catalog/ap.html	AP Test and Scores for College Credit	Policy
+http://info.sjsu.edu/web-dbgen/narr/static/catalog/ferpa.html	Student Privacy Rights (FERPA)	Policy
+http://info.sjsu.edu/web-dbgen/narr/static/catalog/ib.html	International Baccalaureate (IB) Progam	Policy
+http://info.sjsu.edu/web-dbgen/narr/static/catalog/nondiscrimination.html	Nondiscrimination Policies	Policy
+http://info.sjsu.edu/web-dbgen/narr/static/catalog/scholastic.html	Academic Probation and Disqualification	Policy
+http://info.sjsu.edu/web-dbgen/narr/static/soc-fall/ge.html	General Education Requirements	Policy
+http://info.sjsu.edu/web-dbgen/narr/static/soc-fall/registration.html	Enrollment Options	Policy
+http://info.sjsu.edu/web-dbgen/narr/static/soc-fall/soc-footnotes.html	Class Code Numbers and Meanings	Policy
+http://info.sjsu.edu/web-dbgen/narr/static/soc-fall/waitlisting.html	Wait List Information	Policy
+http://info.sjsu.edu/web-dbgen/narr/static/soc-spring/finals.html	Final Exam Schedule	Date
+http://info.sjsu.edu/web-dbgen/narr/static/soc-spring/sjstudies.html	Advanced General Education (SJSU Studies)	Policy
+http://jmcweb.sjsu.edu/index.html	Journalism and Mass Communications Department	Department
+http://local.yahoo.com/CA/San+Jose/Legal+Financial+Services/Credit+Unions;_ylc=X3oDMTFtM3J0aHV1BF9TAzk3NjcyMDI1BF9zAzk2NjEzNzY3BHNlYwNMZWdhbCAmIEZpbmFuY2lhbCBTZXJ2aWNlcw--	Credit Unions in San Jose	Finance
+http://mail.yahoo.com/	Yahoo! Mail	Miscellaneous
+http://mcnair.sjsu.edu/	McNair Scholars Program	Program
+http://my.sjsu.edu/	MySJSU	Service
+http://my.sjsu.edu/students/help/QR_SR_SS_Drop_Class/index.htm	How to Drop a Course	How-to
+http://my.sjsu.edu/students/pdf_schedules/index.htm	Class Schedules [PDF]	Class
+http://online.sjsu.edu/	Online Class Portal	Class
+http://ou.sjsu.edu/academic-information/academic-renewal	Academic Renewal Policy	Policy
+http://ou.sjsu.edu/required-tests-and-placement/foreign-language-placement-exams	Foreign Language Placement Exam	Test
+http://sa.sjsu.edu/counseling/index.html	Counseling Services	Service
+http://sa.sjsu.edu/counseling/personal_counseling/crisis_intervention.html	Crisis Intervention	Service
+http://sa.sjsu.edu/counseling/personal_counseling/index.html	Personal Counseling	Service
+http://sa.sjsu.edu/counseling/psychiatric_services/index.html	Psychiatric Services	Service
+http://sa.sjsu.edu/mosaic/index.jsp	MOSAIC Cross Cultural Center	Program
+http://sa.sjsu.edu/ombudsman/	Student Fairness Committee	Policy
+http://sa.sjsu.edu/ombudsman/index.html	Ombudsman: Conflict Resolution	Service
+http://sa.sjsu.edu/sll/fall_welcome/index.html	Fall Welcome Days	Recreation
+http://sa.sjsu.edu/sll/fasl/index.html	Fraternity and Sorority Information	Organization
+http://sa.sjsu.edu/sll/home.jsp	Student Involvement	Organization
+http://sa.sjsu.edu/sll/orientation/frosh/index.html	Freshman Orientation	Program
+http://sa.sjsu.edu/sll/soal/code_of_conduct.pdf	Student Organizations Code of Conduct	Policy
+http://sa.sjsu.edu/student_health/index.jsp	Health Center	Service
+http://sjsu.askadmissions.net/sjsu/aeresults.aspx	Virtual Advisor	Service
+http://slisweb.sjsu.edu/	Library and Information Science Department	Department
+http://slisweb.sjsu.edu/enrollment/lateadd.htm	Late Add Policy	Policy
+http://studentorgs.sjsu.edu/	Student Clubs and Organizations	Organization
+http://transfer.sjsu.edu/	Articulation Information	Transfer
+http://transfer.sjsu.edu/web-dbgen/artic/tpg/templates.html	Transfer Planning	Transfer
+http://tutorials.sjlibrary.org/tutorial/plagiarism/index.htm	King Library: Plagiarism Tutorial	Service
+http://weather.yahoo.com/forecast/USCA0993.html	San Jose Weather	Recreation
+http://www.aamc.org/students/mcat/start.htm	Medical College Admission Test (MCAT)	Test
+http://www.abebooks.com/	Abe Books	Books
+http://www.acerail.com/	Altamont Commuter Express Train [ACE]	Transportation
+http://www.adacompliance.sjsu.edu/index.htm	Americans with Disabilities Act (ADA) Compliance Office	Policy
+http://www.amazon.com/books/	Amazon	Books
+http://www.amtrak.com/servlet/ContentServer?pagename=Amtrak/HomePage	Amtrak Train	Transportation
+http://www.apb.sjsu.edu/Data_&_Reporting/Statistical_Abstract.cfm	Campus Data	Facts
+http://www.assist.org/web-assist/welcome.html	ASSIST - Transferable Courses	Transfer
+http://www.biology.sjsu.edu/	Biology Department	Department
+http://www.biology.sjsu.edu/news/news.aspx	Biology Department Events	Recreation
+http://www.bs.se.sjsu.edu/	Bachelor of Science in Software Engineering	Policy
+http://www.calstate.edu/transfer/	Lower Division Transfer Pattern (LDTP)	Transfer
+http://www.caltrain.com/	Caltrain	Transportation
+http://www.careercenter.sjsu.edu/workabilityIV/workabilityIV.html	Workability IV Program	Program
+http://www.chemistry.sjsu.edu/	Chemistry Department	Department
+http://www.chemistry.sjsu.edu/index.php?q=node/38	Chemistry Department Events	Recreation
+http://www.cob.sjsu.edu/	College of Business	College
+http://www.cob.sjsu.edu/acct&fin/	Accounting and Finance Department	Finance
+http://www.cob.sjsu.edu/bsac/	Academic Advising: College of Business	Advising
+http://www.cob.sjsu.edu/mis/	Management Information Systems Department	Department
+http://www.cob.sjsu.edu/mkt/	Marketing and Decision Sciences Department	Department
+http://www.cob.sjsu.edu/org&mgt/index.htm	Organization and Management Department	Department
+http://www.collegesource.org/	Other College Catalogs	Class
+http://www.cs.sjsu.edu/	Computer Science Department	Department
+http://www.csac.ca.gov/doc.asp?id=20	Cal Grant Information	Finance
+http://www.csumentor.edu/	CSU Mentor: Admissions Application	Form
+http://www.csumentor.edu/admissionapp/grad_apply.asp	San Jose State Graduate Application	Form
+http://www.csumentor.edu/AdmissionApp/undergrad_apply.asp	San Jose State Undergraduate Application	Form
+http://www.drc.sjsu.edu/	Disability Resource Center	Service
+http://www.engr.sjsu.edu/	College of Engineering	College
+http://www.engr.sjsu.edu/avtech/	Aviation Program	Program
+http://www.engr.sjsu.edu/civil/	Civil and Environmental Engineering Department	Department
+http://www.engr.sjsu.edu/cme/	Chemical and Materials Engineering Department	Department
+http://www.engr.sjsu.edu/cmpe/	Computer Engineering Department	Department
+http://www.engr.sjsu.edu/electrical/	Electrical Engineering Department	Department
+http://www.engr.sjsu.edu/gen/	General Engineering Department	Department
+http://www.engr.sjsu.edu/ise/	Industrial and Systems Engineering Department	Department
+http://www.engr.sjsu.edu/mae/	Mechanical and Aerospace Engineering Department	Department
+http://www.engr.sjsu.edu/students/essc/advising/	Academic Advising: College of Engineering	Advising
+http://www.engr.sjsu.edu/students/essc/ll/mep	Mathematics Engineering Science Achievement (MESA) Program	Program
+http://www.engr.sjsu.edu/students/progs/mep	MESA Engineering Program (MEP)	Program
+http://www.ets.org/portal/site/ets/menuitem.fab2360b1645a1de9b3a0779f1751509/?vgnextoid=b195e3b5f64f4010VgnVCM10000022f95190RCRD	Graduate Record Exam (GRE)	Test
+http://www.fafsa.ed.gov/	Free Application for Federal Student Aid (FAFSA)	Finance
+http://www.gmac.com/gmac/	Graduate Management Admission Counsil (GMAC)	Graduate
+http://www.gmail.com/	Gmail	Miscellaneous
+http://www.google.com/	Google	Miscellaneous
+http://www.hotmail.com/	Hotmail	Miscellaneous
+http://www.lsat.com/	LSAT (Law School Admission Test)	Graduate
+http://www.lsat.com/AboutLSAC/about-lsac.asp	Law School Admission Counsel (LSAC)	Graduate
+http://www.lsat.com/LSAT/about-the-lsat.asp	Law School Admission Test (LSAT)	Graduate
+http://www.mapquest.com	Map Quest	Service
+http://www.mastep.sjsu.edu/serc/Default.htm	Science Education Resource Center	Service
+http://www.math.sjsu.edu/	Mathematics Department	Department
+http://www.math.sjsu.edu/~calculus/	Calculus and Precalculus Information	Policy
+http://www.math.sjsu.edu/~calculus/perishables/mpe_sched.htm	Math Placement Exam (MPE) Schedule	Test
+http://www.math.sjsu.edu/~mcclory/EO%20665%20Handbook%202K8.doc	One Year Rule (Disqualification)	Policy
+http://www.math.sjsu.edu/~mcclory/EO%20665%20Handbook%202K9.doc	EO 665: Reinstatement Policy	Policy
+http://www.math.sjsu.edu/camcos/	"Center for Applied Math, Computation, and Statistics (CAMCOS)"	Program
+http://www.met.sjsu.edu/	Meteorology Department	Department
+http://www.mlml.calstate.edu/	Moss Landing Marine Labs	Miscellaneous
+http://www.music.sjsu.edu/	Music and Dance Department	Department
+http://www.m-w.com/	Online Dictionary	Miscellaneous
+http://www.nufs.sjsu.edu/	"Nutrition, Food Science, and Packaging Department"	Department
+http://www.physics.sjsu.edu/	Astronomy Department	Department
+http://www.physics.sjsu.edu/index.php?q=event	Physics and Astronomy Department Events	Recreation
+http://www.robertsbookstore.com/	Robert's Bookstore	Books
+http://www.sa.sjsu.edu/download/judicial_affairs/Student_Conduct_Code.pdf	Student Code of Conduct	Policy
+http://www.science.sjsu.edu/	College of Science	College
+http://www.science.sjsu.edu/?q=event	College of Science Events	College
+http://www.science.sjsu.edu/amp/	Alliance for Minority Participation (AMP)	Program
+http://www.science.sjsu.edu/cosac/	Academic Advising: College of Science	Advising
+http://www.science.sjsu.edu/scied/	Science Education	Program
+http://www.science.sjsu.edu/science2/	Science 2: Success in Science	Program
+http://www.science.sjsu.edu/science2/handouts/GE.pdf	General Education Checklist [PDF]	Handout
+http://www.science.sjsu.edu/science2/handouts/GE.xls	General Education Checklist [XLS]	Handout
+http://www.science.sjsu.edu/science2/handouts/Week_at_a_glance.xls	Week at a Glance Planner	Handout
+http://www.science.sjsu.edu/transfer/	Science 90T: Success as Transfers	Program
+http://www.sjhousing.org/program/sjsu.html	Faculty and Staff Homebuyer Program	Program
+http://www.sjlibrary.org/	King Library	Service
+http://www.sjlibrary.org/services/computers/equipment.htm	King Library: Laptop Checkout	Service
+http://www.sjsu.edu/aars/	Academic Advising: General Education	Advising
+http://www.sjsu.edu/aars/docs/Petition-Drop.pdf	Late Drop Petition	Form
+http://www.sjsu.edu/aars/policies/latedrops/	Late Drop Policy	Policy
+http://www.sjsu.edu/aars/policies/remediation/	LLD (advancing through remedial courses)	Class
+http://www.sjsu.edu/aars/tip/	Transfer Information Program (TIP)	Transfer
+http://www.sjsu.edu/aars/transfer_orientation/	Transfer Orientation	Transfer
+http://www.sjsu.edu/about_sjsu/docs/SJSU_campus_map.pdf	Campus Map	Map
+http://www.sjsu.edu/about_sjsu/facts_and_figures/	Facts and Figures Regarding San Jose State	Facts
+http://www.sjsu.edu/about_sjsu/facts_and_figures/index.htm	Campus Facts and Figures	Facts
+http://www.sjsu.edu/academic_programs/calendars/academic_calendar/	Academic Calendar	Date
+http://www.sjsu.edu/academic_programs/policies_and_procedures/	Academic Policies and Procedures	Policy
+http://www.sjsu.edu/advising/	Advising HUB	Advising
+http://www.sjsu.edu/advising/faq/index.htm#maxunits	Excess Unit Petition	Form
+http://www.sjsu.edu/afam/	African American Studies Department	Department
+http://www.sjsu.edu/aspire/	ASPIRE	Program
+http://www.sjsu.edu/atn/	Academic Technology Network	Service
+http://www.sjsu.edu/atn/delivery/webcasting/	Webcasting Classes	Service
+http://www.sjsu.edu/bursar/	Bursar's Office	Service
+http://www.sjsu.edu/bursar/beginhere/faq/towercardfaqs/towercardfaqs2/index.html	Tower Cards	Service
+http://www.sjsu.edu/bursar/directory/cashier/index.htm	Cashier	Service
+http://www.sjsu.edu/bursar/fees/	Fees	Finance
+http://www.sjsu.edu/bursar/fees/regfees/	Registration Fees	Finance
+http://www.sjsu.edu/bursar/forms/	Bursar's Office Forms	Form
+http://www.sjsu.edu/bursar/services/loans/emergency/	Emergency Loans	Finance
+http://www.sjsu.edu/bursar/services/towercard/	Student ID - Tower Card	Service
+http://www.sjsu.edu/casa/	College of Applied Sciences and Arts	College
+http://www.sjsu.edu/casa/healthprofessions/	Health Professions Department	Department
+http://www.sjsu.edu/ccll/	Center for Community Learning and Leadership	Program
+http://www.sjsu.edu/cds/	Communicative Disorders and Sciences Department	Department
+http://www.sjsu.edu/chad/	Child and Adolescent Development Department	Department
+http://www.sjsu.edu/colleges_departments/	Colleges and Departments	College
+http://www.sjsu.edu/comm/	Communication Studies Department	Department
+http://www.sjsu.edu/commencement/	Commencement Guide	Graduation
+http://www.sjsu.edu/counselored/	Counselor Education Department	Department
+http://www.sjsu.edu/depts/AFROTC/homepage.html	Aerospace Studies Department	Department
+http://www.sjsu.edu/depts/anthropology/	Anthropology Department	Department
+http://www.sjsu.edu/depts/EnvStudies/	Environmental Studies Department	Department
+http://www.sjsu.edu/depts/geography/	Geography Department	Department
+http://www.sjsu.edu/depts/history/	History Department	Department
+http://www.sjsu.edu/depts/ipss/	International Programs and Services	Service
+http://www.sjsu.edu/depts/socs/	Social Science Department	Department
+http://www.sjsu.edu/ecampus/courses/	Online Course Offerings	Class
+http://www.sjsu.edu/economics/	Economics Department	Department
+http://www.sjsu.edu/edleadership/index.shtml	Educational Leadership Department	Department
+http://www.sjsu.edu/elementaryed/	Elementary Education Department	Department
+http://www.sjsu.edu/emergency/	Emergency Procedures	Policy
+http://www.sjsu.edu/english/	English and Comparative Literature Department	Department
+http://www.sjsu.edu/eop/	Educational Opportunity Program (EOP)	Program
+http://www.sjsu.edu/events/	San Jose State Events	Recreation
+http://www.sjsu.edu/faculty/	Faculty Websites	Contact
+http://www.sjsu.edu/facultyaffairs/	Faculty Affairs	Policy
+http://www.sjsu.edu/faso/	Financial Aid and Scholarship Office (FASO)	Finance
+http://www.sjsu.edu/faso/Scholarships/	Scholarships	Finance
+http://www.sjsu.edu/faso/Types_AID/Grant/index.htm	Grant Information	Policy
+http://www.sjsu.edu/foreignlanguages/	Foreign Languages Department	Department
+http://www.sjsu.edu/future_students_families/	Application Deadlines	Date
+http://www.sjsu.edu/gape/graduate_programs/	Graduate Programs at San Jose State	Graduate
+http://www.sjsu.edu/gradstudies/	Graduate School Information	Graduate
+http://www.sjsu.edu/healthscience/	Health Science Department	Department
+http://www.sjsu.edu/helpdesk/	University Help Desk	Support
+http://www.sjsu.edu/helpdesk/support/email_support/	E-mail Support	Support
+http://www.sjsu.edu/helpdesk/support/hours/index.htm	University Help Desk Hours	Support
+http://www.sjsu.edu/helpdesk/support/passwords/	Online Password Resets	Support
+http://www.sjsu.edu/hrtm/	"Hospitality, Recreation and Tourism Management Department"	Department
+http://www.sjsu.edu/hum/	Humanities Department	Department
+http://www.sjsu.edu/hum/honors/	Humanity Honors Program	Program
+http://www.sjsu.edu/humanities/	College of Humanities and the Arts	College
+http://www.sjsu.edu/ihouse/index.htm	International House	Organization
+http://www.sjsu.edu/includes/calendars/academic/1011aycalendar.pdf	Academic Year Calendar	Date
+http://www.sjsu.edu/justicestudies/	Justice Studies Department	Department
+http://www.sjsu.edu/kinesiology/	Kinesiology Department	Department
+http://www.sjsu.edu/larc/	Learning Assistance Resource Center (LARC)	Service
+http://www.sjsu.edu/linguistics/	Linguistics and Language Development Department	Department
+http://www.sjsu.edu/linguistics/programs/tesol/index.htm	Teaching English to Speakers of Other Languages {TESOL}	Test
+http://www.sjsu.edu/math/	Math Education Department	Department
+http://www.sjsu.edu/mediaservices/	Media Services	Service
+http://www.sjsu.edu/muse/	Metropolitan University Scholar's Experience (MUSE)	Program
+http://www.sjsu.edu/muse/peermentor/	MUSE Peer Mentors	Service
+http://www.sjsu.edu/nursing/	Nursing Department	Department
+http://www.sjsu.edu/occupationaltherapy/	Occupational Therapy Department	Department
+http://www.sjsu.edu/parking/	Parking Services	Service
+http://www.sjsu.edu/parking/pages/maps2.html	Parking Areas	Map
+http://www.sjsu.edu/parking/pages/motorist2.html	Motorist Assistance	Service
+http://www.sjsu.edu/parking/pages/studentinfo.html	Parking Permits	Service
+http://www.sjsu.edu/people/	Faculty Contact List	Contact
+http://www.sjsu.edu/philosophy/	Philosophy Department	Department
+http://www.sjsu.edu/polisci/	Political Science Department	Department
+http://www.sjsu.edu/president/	Office of the President	Contact
+http://www.sjsu.edu/provost/	Office of the Provost	Contact
+http://www.sjsu.edu/provost/honors_convocation/	Honors Convocation	Policy
+http://www.sjsu.edu/psych/	Psychology Department	Department
+http://www.sjsu.edu/publicaffairs/	Public Affairs	Program
+http://www.sjsu.edu/registrar/	Registrar's Office	Service
+http://www.sjsu.edu/registrar/calendar/	Dates and Deadlines	Date
+http://www.sjsu.edu/registrar/calendar/2122/index.htm	Add Deadline	Date
+http://www.sjsu.edu/registrar/docs/grad_app.pdf	Graduation Application	Form
+http://www.sjsu.edu/registrar/docs/grad_change.pdf	Graduation Date Change Form	Form
+http://www.sjsu.edu/registrar/docs/incomplete_ext.pdf	Incomplete (I) Extension Request	Form
+http://www.sjsu.edu/registrar/docs/Late_Enroll_Req.pdf	Late Add Petition	Form
+http://www.sjsu.edu/registrar/docs/leave_request.pdf	Leave of Absence and Withdrawal Request	Form
+http://www.sjsu.edu/registrar/docs/major_minor.pdf	Change of Major Form	Form
+http://www.sjsu.edu/registrar/docs/Reinstatement_Petition.pdf	Reinstatement Petition	Form
+http://www.sjsu.edu/registrar/docs/visitor.pdf	Visitor Program Application	Form
+http://www.sjsu.edu/registrar/forms/index.htm	Forms and Petitions	Form
+http://www.sjsu.edu/registrar/services/GPA_Verification/	GPA Verification	Service
+http://www.sjsu.edu/registrar/services/Residency/	Residency Information	Policy
+http://www.sjsu.edu/registrar/services/students/ab540.html	AB 540: Undocumented Students	Policy
+http://www.sjsu.edu/registrar/services/students/unit_load.htm	Enrollment Status	Service
+http://www.sjsu.edu/registrar/services/transcripts/	Transcript Information	Policy
+http://www.sjsu.edu/registrar/services/verification/	Enrollment Verification	Service
+http://www.sjsu.edu/registrar/services/visitor_concurrent/	Application to Visit Another CSU	Form
+http://www.sjsu.edu/registrar/tutorials/grade_values.html	Grade and Symbol Values	Policy
+http://www.sjsu.edu/registrar/tutorials/view_appt.pdf	How to View Enrollment Appointment	How-to
+http://www.sjsu.edu/registrar/veterans/	Veterans Services	Service
+http://www.sjsu.edu/registrar/veterans/va_forms/	Veterans Affairs Forms	Form
+http://www.sjsu.edu/secondaryed/	Secondary Education Department	Department
+http://www.sjsu.edu/senate/	Academic Senate Website	Policy
+http://www.sjsu.edu/senate/f88-10.htm	Academic Dishonesty Policy	Policy
+http://www.sjsu.edu/senate/S04-12.pdf	Academic Integrity Policy	Policy
+http://www.sjsu.edu/senate/S06-4.htm	Final Exam Policy	Policy
+http://www.sjsu.edu/senate/S77-6.pdf	College Level Exam Program (CLEP)	Policy
+http://www.sjsu.edu/sjsuone/about/	SJSUone	Service
+http://www.sjsu.edu/soar/	SOAR: Admissions Counseling	Service
+http://www.sjsu.edu/socialsciences/	College of Social Science	College
+http://www.sjsu.edu/socialsciences/teacherspreparation/index.htm	Teacher Preparation Program	Program
+http://www.sjsu.edu/socialwork/	Social Work Department	Department
+http://www.sjsu.edu/sociology/	Sociology Department	Department
+http://www.sjsu.edu/specialed/	Special Education Department	Department
+http://www.sjsu.edu/studenthealth/clinical_services/	Student Health Center Clinical Services	Service
+http://www.sjsu.edu/studenthealth/clinical_services/pharmacy/index.htm	Campus Pharmacy	Service
+http://www.sjsu.edu/studenthealth/clinical_services/physical_therapy/index.htm	Physical Therapy	Service
+http://www.sjsu.edu/studenthealth/clinical_services/women_health/index.htm	Women's Health	Service
+http://www.sjsu.edu/studenthealth/health_education/	Diet and Nutrition Information	Policy
+http://www.sjsu.edu/studenthealth/health_education/sexual_health/	Birth Control and Contraception	Service
+http://www.sjsu.edu/studyabroad/	Study Abroad Information	Policy
+http://www.sjsu.edu/ugs/	Undergraduate Studies	Policy
+http://www.sjsu.edu/ugs/arb/section4f.html	Academic Standing Information	Policy
+http://www.sjsu.edu/ugs/docs/petitions/Disregard.pdf	Disregard Previous Semesters' Work	Form
+http://www.sjsu.edu/ugs/docs/petitions/Foreign_credit.pdf	Credit for International Course Work	Form
+http://www.sjsu.edu/ugs/docs/petitions/Intensive_Science.pdf	Core Intensive Science Plan	Form
+http://www.sjsu.edu/ugs/docs/petitions/New_AR_Disregard_Aug_09.pdf	Academic Renewal Petition	Form
+http://www.sjsu.edu/ugs/docs/petitions/Retro._Acad._Ren.pdf	Retroactive Academic Renewal Petition	Form
+http://www.sjsu.edu/ugs/docs/petitions/Retro._Course_Add.pdf	Retroactive Course Add Petition	Form
+http://www.sjsu.edu/ugs/docs/petitions/Retro._Course_Drop.pdf	Retroactive Course Drop Petition	Form
+http://www.sjsu.edu/ugs/docs/petitions/Retro._Withdrawal.pdf	Retroactive Withdrawl Petition	Form
+http://www.sjsu.edu/ugs/students/advising/	Academic Advising Centers	Advising
+http://www.sjsu.edu/ugs/students/firstyear/	First Year Experience Courses	Program
+http://www.sjsu.edu/ugs/students/petitions/list/	List of Petitions	Form
+http://www.sjsu.edu/ugs/students/petitions/list/index.html	General Ed Petitions	Form
+http://www.sjsu.edu/ugs/students/specialmajors/Guidelines/	Special Major Guidelines	Policy
+http://www.sjsu.edu/ugs/students/writing/	Writing Resources	Service
+http://www.sjsu.edu/urbanplanning/	Urban and Regional Planning Department	Department
+http://www.sjsu.edu/visit/	Visit San Jose State University	Contact
+http://www.sjsu.edu/visit/admissionrequirements/	Admission Requirements	Policy
+http://www.sjsu.edu/webservices/services/faculty/	Web Services for Faculty	Service
+http://www.sjsu.edu/webservices/services/websitebuilder/	Web Page Wizard for Faculty	Service
+http://www.sjsu.edu/wireless/connecting/	WiFi at San Jose State University	Service
+http://www.sjsu.edu/writingcenter/	Writing Center	Service
+http://www.sjsu.edu/wsq/	Washington Square Magazine	Miscellaneous
+http://www.sjsu.netclubmgr.com	Student Organizations	Organization
+http://www.sjsugeology.org/	Geology Department	Department
+http://www.sjsupd.com/	University Police Department (UPD)	Department
+http://www.sjsupd.com/asr/index.html	Annual Safety Report	Facts
+http://www.sjsuspartans.com/main/Schedule.dbml	Athletics Schedule	Athletics
+http://www.sjsuspartans.com/ViewArticle.dbml?DB_OEM_ID=5600&ATCLID=1505952	San Jose State University Athletics	Athletics
+http://www.spartanbookstore.com/	Spartan Bookstore	Books
+http://www.spartanbookstore.com/home.aspx	Spartan Bookstore	Books
+http://www.spartanbookstore.com/SiteText.aspx?id=1284	On Campus Post Office	Service
+http://www.spartanshops.com/bookstore/Insite/Computer_site/index.html	Spartan Computer Store	Service
+http://www.spartanshops.com/dining/portal/	Dining Services	Service
+http://www.spartanshops.sjsu.edu/	Spartan Shops	Service
+http://www.spartanshops.sjsu.edu/goldpoints/	Gold Points	Service
+http://www.spartanshops.sjsu.edu/promotions/	Spartan Shops Promotions	Service
+http://www.thespartandaily.com/	The Spartan Daily	Miscellaneous
+http://www.thespartandaily.com/contact/	The Spartan Daily Contact Information	Contact
+http://www.tvradiofilmtheatre.com/	"Television, Radio, Film and Theatre Department"	Department
+http://www.union.sjsu.edu/	Student Union	Recreation
+http://www.union.sjsu.edu/Aquatic_Center/aquatic_center.html	Aquatic Center	Service
+http://www.union.sjsu.edu/ec/ec.html	San Jose State Event Center	Recreation
+http://www.union.sjsu.edu/ec/EC_Box_Office/ec_box_office.html	Event Center Box Office	Recreation
+http://www.union.sjsu.edu/ec/EC_Sport_Club/ec_sport_club.html	Sport Club Fitness Center	Recreation
+http://www.union.sjsu.edu/ec/Event_Center_Arena/event_center_arena.html	Event Center: Upcoming Events	Recreation
+http://www.union.sjsu.edu/su/Bowling_Center/bowling_center.html#maincontent	Bowling Center	Recreation
+http://www.vta.org/	Valley Transportation Authority (VTA)	Transportation
+http://www.vta.org/ecopass/ecopass_corp/index.html	Eco Pass	Service
+http://www.vta.org/schedules/schedules_bynumber.html#100	Light Rail Schedule	Transportation
+http://www.vta.org/schedules/schedules_bynumber.html#102	Bus Schedule	Transportation
+http://www.yahoo.com/	Yahoo!	Miscellaneous
+http://www1.coe.sjsu.edu/	College of Education	College
+https://cmshr.sjsu.edu/psp/HSJPRDF/EMPLOYEE/HSJPRD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?FolderPath=PORTAL_ROOT_OBJECT.PA_HC_CLASS_SEARCH	How to Search for Classes	How-to
+https://cmshr.sjsu.edu/psp/HSJPRDF/EMPLOYEE/HSJPRD/c/CSU_SQA.CSU_SQA.GBL?FolderPath=PORTAL_ROOT_OBJECT.CSU_SA_BASELINE.CSU_SA_STUDENT_RECORDS.CSU_SA_QUICK_ADMIT.CSU_SA_SQA_USE.CSU_SQA_GBL	Open University Registration	Form
+https://sjsuone.sjsu.edu/sjsuphonebook/	Campus Directory	Contact
+https://sjsuone.sjsu.edu/sjsuphonebook/Default.aspx	San Jose State Phone Book	Contact
+https://sjsuone.sjsu.edu/sjsuphonebook/Offices.aspx	"Faculty, Staff and Department Directory"	Contact
+https://testing.sjsu.edu/	Testing Center	Test
+https://testing.sjsu.edu/teptelm.html	English Placement Test and Entry Level Mathematics Information	Test
+https://testing.sjsu.edu/teptelminfo.html	English Placement Test and Entry Level Mathematics Exemption	Test
+https://testing.sjsu.edu/twst.html	Writing Skills Test (WST) Information	Policy
+https://www.nmnathletics.com/ViewArticle.dbml?DB_OEM_ID=5600&KEY=&ATCLID=201503&SPID=2807&SPSID=35588	Academic Advising: Athletics	Advising
+https://www.sccfcu.org/asp/home.asp	Santa Clara County Credit Union	Finance
+https://www.usecu.org/home/home	USE Credit Union	Finance
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+ 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+ 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+ 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+ 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+ 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+ 		
+		
+		
+		
+		
+		
+ 		
+		
+		
+		
+		
+ 		

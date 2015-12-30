@@ -1,0 +1,19 @@
+// ---- List of Planned Changes ---- \\
+
+- UPLOAD to Github and transform these objectives into tickets
+
+- Photo catalog/ folders for a more diverse image gallery organized by Event Title
+
+- Create favicon.ico image
+
+- Resize student images for Spotlight page
+
+- Fix Navigation hilighting for page change and improve colors
+
+- Enlarge & improve formatting for Collapsed Nav BSU logo
+
+- PDF Viewer for Student Resources Page
+
+- Improved Events Calendar that uses Google Calendars but with better modern UI
+
+- Database for Student orgs with AngularJS to Query

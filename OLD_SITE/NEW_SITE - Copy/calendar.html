@@ -1,0 +1,83 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>SJSU BSU | Calendar</title>
+    <meta name="description" content="SJSU's BSU Events Calendar page">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- SCROLLS (CSS) -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- SPELLS (Scripts) -->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+  </head>
+
+  <!-- ng-inclue used for sidebar -->
+  <body ng-app="">
+    <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- == NAVIGATION == -->
+    
+    <div ng-include="'includes/nav.html'"></div>
+
+    <!-- == MAIN, SIDEBAR, & FOOTER == -->
+    <div class="container">
+
+      <!-- MASTER ROW (Main and Sidebar) -->
+      <div class="row">
+        <!-- Main Content -->
+        <div class="col-sm-8">
+
+          <!-- Page Title -->
+          <div class="row">
+
+            <div class="panel panel-default">
+              <div class="panel-heading"><h2>Events Calendar</h2></div>
+              <div class="panel-body">
+                <div class="embed-responsive embed-responsive-4by3">
+                  <iframe src="https://www.google.com/calendar/embed?title=BSU%20Events%20Calendar&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=sjsu.edu_9h170gffmotfhd2m5c8rhv8vv0%40group.calendar.google.com&amp;color=%2323164E&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Main Content -->
+          <div class="row">
+            
+
+          </div>
+
+        </div>
+        <!-- Sidebar -->
+        <div class="col-sm-4">
+          <div ng-include="'includes/sidebar.html'"></div>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <div class="row row-centered">
+        <footer>
+          <div ng-include="'includes/footer.html'"></div>
+        </footer>
+      </div>
+
+    </div>
+    <!-- == END: MAIN, SIDEBAR, & FOOTER == -->
+
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+
+   </body>
+  </html>

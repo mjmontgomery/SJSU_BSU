@@ -1,0 +1,147 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>SJSU BSU | About Us</title>
+    <meta name="description" content="SJSU's BSU About page">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- SCROLLS (CSS) -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- SPELLS (Scripts) -->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+  </head>
+
+  <!-- ng-inclue used for sidebar -->
+  <body ng-app="">
+    <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- == NAVIGATION == -->
+    
+    <div ng-include="'includes/nav.html'"></div>
+
+    <!-- == MAIN, SIDEBAR, & FOOTER == -->
+    <div class="container">
+
+      <!-- MASTER ROW (Main and Sidebar) -->
+      <div class="row">
+        <!-- Main Content -->
+        <div class="col-sm-8">
+
+          <!-- Page Title -->
+          <div class="row">
+            <div class="well">
+              <h2>BSU Executive Board</h2>
+              <p>BSU's elected leaders of Spring 2015!</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="panel panel-default about-box">
+                <div class="panel-heading"><h3>President</h3></div>
+                <div class="panel-body">
+                  <img class="img-responsive" src="img/exec/alex.jpg" width="300" height="300">
+                  <p><h4>Alexander Donald</h4></p>
+                  <p><b>Major: </b>Political Science</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="panel panel-default about-box">
+                <div class="panel-heading"><h3>Vice President</h3></div>
+                <div class="panel-body">
+                  <img class="img-responsive" src="img/exec/bell.jpg" width="300" height="300">
+                  <p><h4>Sha'Ronai Bell</h4></p>
+                  <p><b>Major: </b>Forensic Science</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="panel panel-default about-box">
+                <div class="panel-heading"><h3>Historian</h3></div>
+                <div class="panel-body">
+                  <img class="img-responsive" src="img/exec/brianna.jpg" width="300" height="300">
+                  <p><h4>Brianna Leon</h4></p>
+                  <p><b>Major: </b>Justice Studies</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="panel panel-default about-box">
+                <div class="panel-heading"><h3>PR Coordinator</h3></div>
+                <div class="panel-body">
+                  <img class="img-responsive" src="img/exec/selome.jpg" width="300" height="300">
+                  <p><h4>Selome Tekle</h4></p>
+                  <p><b>Major: </b>Public Relations</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="panel panel-default about-box">
+                <div class="panel-heading"><h3>Secretary</h3></div>
+                <div class="panel-body">
+                  <img class="img-responsive" src="img/exec/fikir.jpg" width="300" height="300">
+                  <p><h4>Fikir Alehamayu</h4></p>
+                  <p><b>Major: </b>Pre-Nursing</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="panel panel-default about-box">
+                <div class="panel-heading"><h3>Event Coordinator</h3></div>
+                <div class="panel-body">
+                  <img class="img-responsive" src="img/exec/alana.jpg" width="300" height="300">
+                  <p><h4>Alana Miller</h4></p>
+                  <p><b>Major: </b>Interior Design - Minor in Dance &amp; Theatre</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="panel panel-default about-box">
+                <div class="panel-heading"><h3>Tresurer</h3></div>
+                <div class="panel-body">
+                  <img class="img-responsive" src="img/exec/rachel.jpg" width="300" height="300">
+                  <p><h4>Rachel D. Lewis</h4></p>
+                  <p><b>Major: </b>Child and Adolescent Development</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Exec Board -->
+
+          </div>
+
+        </div>
+        <!-- Sidebar -->
+        <div class="col-sm-4">
+          <div ng-include="'includes/sidebar.html'"></div>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <div class="row row-centered">
+        <footer>
+          <div ng-include="'includes/footer.html'"></div>
+        </footer>
+      </div>
+
+    </div>
+    <!-- == END: MAIN, SIDEBAR, & FOOTER == -->
+
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+
+   </body>
+  </html>

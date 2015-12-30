@@ -161,7 +161,10 @@ iframe{
 }
 
 /* modal centered */
-
+.modal-dialog {
+   margin-right: 500px;
+   margin-top: your desired value ;
+}
 
 /*iframe {
     width: 98vw; 

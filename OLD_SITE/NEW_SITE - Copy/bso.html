@@ -1,0 +1,112 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>SJSU BSU | BSO </title>
+    <meta name="description" content="SJSU's BSU Black Student Organizations page">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- SCROLLS (CSS) -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- SPELLS (Scripts) -->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+  </head>
+
+  <!-- ng-inclue used for sidebar -->
+  <body ng-app="">
+    <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- == NAVIGATION == -->
+    
+    <div ng-include="'includes/nav.html'"></div>
+
+    <!-- == MAIN, SIDEBAR, & FOOTER == -->
+    <div class="container">
+
+      <!-- MASTER ROW (Main and Sidebar) -->
+      <div class="row">
+        <!-- Main Content -->
+        <div class="col-sm-8">
+
+          <!-- Page Title 
+          <div class="row">
+            <div class="well">
+              <h2> My Spartan Connection</h2>
+            </div>
+          </div> -->
+
+          <!-- Content -->
+          <div class="row">
+            <div class="panel panel-default"> 
+              <div class="panel-heading"><h2>SJSU's Black Student Organizations</h2></div>
+              <div class="panel-body">
+                <p>If you don't see your Student Organization listed here, or if you would like to change/update your organization's information, please email <a href="mailto:michael.randle@sjsu.edu">michael.randle@sjsu.edu</a></p>
+
+                <div class="well">
+                <h4>Black Student Organizations List:</h4>
+                <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#bsoTable">View</button>
+                <a href="dl/bso_table.xlsx">Download (.xlsx)</a>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="bsoTable" role="dialog">
+                  <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content bso-table">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Spartan Connection Resources List</h4>
+                      </div>
+                      <div class="modal-body">
+
+                        <div ng-include="'includes/bso_table.html'"></div>
+                        
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Modal -->
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <!-- Sidebar -->
+        <div class="col-sm-4">
+          <div ng-include="'includes/sidebar.html'"></div>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <div class="row row-centered">
+        <footer>
+          <div ng-include="'includes/footer.html'"></div>
+        </footer>
+      </div>
+
+    </div>
+    <!-- == END: MAIN, SIDEBAR, & FOOTER == -->
+
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+
+   </body>
+  </html>

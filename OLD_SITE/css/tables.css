@@ -1,0 +1,259 @@
+table#contact {
+	width: 532px;
+	border: 2px solid #aaaaaa;
+}
+
+table#contact th {
+	background-color: #dad7cb;
+	font-family: "Trebuchet MS", Sans-serif;
+	font-size: 12px;
+	letter-spacing: 2px;
+	padding: 5px 0 5px 0;
+}
+
+table#contact th.name {
+	width: 150px;
+	border-right: 2px solid #aaaaaa;
+}
+
+table#contact th.email {
+	width: 250px;
+	border-right: 2px solid #aaaaaa;
+}
+
+table#contact td {
+	padding: 5px 5px 5px 5px;
+	border-top: 2px solid #aaaaaa;
+}
+
+table#contact td.name {
+	border-right: 2px solid #aaaaaa;
+}
+
+table#contact td.email {
+	border-right: 2px solid #aaaaaa;
+}
+
+table#assignments {
+	width: 532px;
+	border: 2px solid #aaaaaa;
+}
+
+table#assignments th {
+	background-color: #dad7cb;
+	font-family: "Trebuchet MS", Sans-serif;
+	font-size: 12px;
+	letter-spacing: 2px;
+	padding: 5px 0 5px 0;
+}
+
+table#assignments th.assignment {
+	width: 175px;
+	border-right: 2px solid #aaaaaa;
+}
+
+table#assignments th.page {
+	width: 100px;
+	border-right: 2px solid #aaaaaa;
+}
+
+table#assignments th.download {
+	width: 130px;
+	border-right: 2px solid #aaaaaa;
+}
+
+table#assignments td {
+	padding: 5px 5px 5px 5px;
+	border-top: 2px solid #aaaaaa;
+	text-align: center;
+}
+
+table#assignments td.assignment {
+	border-right: 2px solid #aaaaaa;
+	text-align: left;
+}
+
+table#assignments td.page {
+	border-right: 2px solid #aaaaaa;
+	text_align: center;
+}
+
+table#assignments td.download {
+	border-right: 2px solid #aaaaaa;
+	text_align: center;
+}
+
+table#group {
+	width: 532px;
+}
+
+table#group td {
+	width: 266px;
+}
+
+table#gpa {
+	width: 532px;
+	border: 2px solid #aaaaaa;
+}
+
+table#gpa th {
+	background-color: #dad7cb;
+	font-family: "Trebuchet MS", Sans-serif;
+	font-size: 12px;
+	letter-spacing: 2px;
+	padding: 5px 0 5px 0;
+}
+
+table#gpa th.class {
+	width: 250px;
+	border-right: 2px solid #aaaaaa;
+}
+
+table#gpa th.units {
+	width: 50px;
+	border-right: 2px solid #aaaaaa;
+}
+
+table#gpa th.grade {
+	width: 100px;
+	border-right: 2px solid #aaaaaa;
+}
+
+table#gpa td {
+	padding: 5px 5px 5px 5px;
+	border-top: 2px solid #aaaaaa;
+	text-align: center;
+}
+
+table#gpa td.class {
+	border-right: 2px solid #aaaaaa;
+	text-align: left;
+}
+
+table#gpa td.class input {
+	width: 240px;
+}
+
+table#gpa td.units {
+	border-right: 2px solid #aaaaaa;
+}
+
+table#gpa td.units input {
+	width: 25px;
+	text-align: center;
+}
+
+table#gpa td.grade {
+	border-right: 2px solid #aaaaaa;
+}
+
+table#gpa-sum {
+	width: 532px;
+	border: 2px solid #aaaaaa;
+}
+
+table#gpa-sum th {
+	background-color: #dad7cb;
+	font-family: "Trebuchet MS", Sans-serif;
+	font-size: 12px;
+	letter-spacing: 2px;
+	padding: 5px 0 5px 5px;
+	text-align: left;
+}
+
+table#gpa-sum td {
+	padding: 5px 5px 5px 5px;
+	border-top: 2px solid #aaaaaa;
+	text-align: center;
+}
+
+table#gpa-sum td.name {
+	border-right: 2px solid #aaaaaa;
+	width: 415px;
+	text-align: left;
+}
+
+table#sect-info {
+	width: 532px;
+	border: 2px solid #aaaaaa;
+}
+
+table#sect-info th {
+	background-color: #dad7cb;
+	font-family: "Trebuchet MS", Sans-serif;
+	font-size: 12px;
+	letter-spacing: 2px;
+	padding: 5px 0 5px 0;
+}
+
+table#sect-info th.section {
+	padding: 0 5px 0 5px;
+	border-right: 2px solid #aaaaaa;
+}
+
+table#sect-info th.time {
+	width: 125px;
+	border-right: 2px solid #aaaaaa;
+}
+
+table#sect-info th.location {
+	width: 125px;
+	border-right: 2px solid #aaaaaa;
+}
+
+table#sect-info th.instructor {
+	width: 125px;
+	border-right: 2px solid #aaaaaa;
+}
+
+table#sect-info td {
+	padding: 5px 5px 5px 5px;
+	border-top: 2px solid #aaaaaa;
+	text-align: center;
+}
+
+table#sect-info td.section {
+	border-right: 2px solid #aaaaaa;
+}
+
+table#sect-info td.time {
+	border-right: 2px solid #aaaaaa;
+}
+
+table#sect-info td.location {
+	border-right: 2px solid #aaaaaa;
+}
+
+table#sect-info td.instructor {
+	border-right: 2px solid #aaaaaa;
+}
+
+table#pa-info {
+	width: 532px;
+	border: 2px solid #aaaaaa;
+}
+
+table#pa-info th {
+	background-color: #dad7cb;
+	font-family: "Trebuchet MS", Sans-serif;
+	font-size: 12px;
+	letter-spacing: 2px;
+	padding: 5px 0 5px 0;
+	width: 104px;
+}
+
+table#pa-info th.pa, th.mon, th.tue, th.wed {
+	border-right: 2px solid #aaaaaa;
+}
+
+
+table#pa-info td {
+	padding: 5px 5px 5px 5px;
+	border-top: 2px solid #aaaaaa;
+	text-align: center;
+	width: 104px;
+}
+
+table#pa-info td.pa, td.mon, td.tue, td.wed {
+	border-right: 2px solid #aaaaaa;
+}
