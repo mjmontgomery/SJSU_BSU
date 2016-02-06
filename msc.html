@@ -15,6 +15,12 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
 
+    <style>
+      @media screen and (max-width:767px) {
+        #modal_btn { display:none; }
+      }
+    </style>
+
     <!-- SPELLS (Scripts) -->
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -29,7 +35,7 @@
     <![endif]-->
 
     <!-- == NAVIGATION == -->
-    
+
     <div ng-include="'includes/nav.html'"></div>
 
     <!-- == MAIN, SIDEBAR, & FOOTER == -->
@@ -40,7 +46,7 @@
         <!-- Main Content -->
         <div class="col-sm-8">
 
-          <!-- Page Title 
+          <!-- Page Title
           <div class="row">
             <div class="well">
               <h2> My Spartan Connection</h2>
@@ -49,7 +55,7 @@
 
           <!-- Content -->
           <div class="row">
-            <div class="panel panel-default"> 
+            <div class="panel panel-default">
               <div class="panel-heading"><h2>My Spartan Connection</h2></div>
               <div class="panel-body">
                 <p>    My Spartan Connection is essentially a "help desk" for African American/Black students with students defining what kind of assistance they need.  The Faculty and Staff who have allowed their information to be shared in this manner consent to being part of a support network that African American/ Black students may access if the need arises.</p>
@@ -59,7 +65,7 @@
 
                 <div class="well">
                 <h4>Spartan Connection Resources List:</h4>
-                <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#scrTable">View</button>
+                <button id="modal_btn"type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#scrTable">View</button>
                 <a href="https://docs.google.com/spreadsheets/d/1us6OaUkhdjrW9oY9eCBP9RtJRv1QqOCfMEgg61fvVXo/pub?gid=252119208&single=true&output=pdf">Download (.PDF)</a>
                 </div>
 
@@ -76,8 +82,8 @@
                       <div class="modal-body">
 
                         <!--<div ng-include="'includes/scr_table.html'"></div>-->
-                        <iframe src="https://docs.google.com/spreadsheets/d/1us6OaUkhdjrW9oY9eCBP9RtJRv1QqOCfMEgg61fvVXo/pubhtml?gid=252119208&amp;single=true&amp;widget=true&amp;headers=false" style="position:relative; border:0; height:1650px; width:100%;"></iframe>
-                        
+                        <iframe src="https://docs.google.com/spreadsheets/d/1us6OaUkhdjrW9oY9eCBP9RtJRv1QqOCfMEgg61fvVXo/pubhtml?gid=252119208&amp;single=true&amp;widget=true&amp;headers=false" style="position:relative; border:0; height:1615px; width:100%;"></iframe>
+
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

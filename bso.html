@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>SJSU BSU | BSO </title>
-    <meta name="description" content="SJSU's BSU Black Student Organizations page">
+    <title>SJSU BSU | MSC </title>
+    <meta name="description" content="SJSU's BSU My Spartan Connection page">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -14,6 +14,17 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+
+    <style>
+      @media screen and (max-width:767px) {
+        #modal_btn { display:none; }
+      }
+      @media screen and (max-width:1002px) {
+        .bso-table{
+          width: 730px;
+        }
+      }
+    </style>
 
     <!-- SPELLS (Scripts) -->
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -29,7 +40,7 @@
     <![endif]-->
 
     <!-- == NAVIGATION == -->
-    
+
     <div ng-include="'includes/nav.html'"></div>
 
     <!-- == MAIN, SIDEBAR, & FOOTER == -->
@@ -40,7 +51,7 @@
         <!-- Main Content -->
         <div class="col-sm-8">
 
-          <!-- Page Title 
+          <!-- Page Title
           <div class="row">
             <div class="well">
               <h2> My Spartan Connection</h2>
@@ -49,15 +60,15 @@
 
           <!-- Content -->
           <div class="row">
-            <div class="panel panel-default"> 
-              <div class="panel-heading"><h2>SJSU's Black Student Organizations</h2></div>
+            <div class="panel panel-default">
+              <div class="panel-heading"><h2>SJSU's Black Spartan Organizations</h2></div>
               <div class="panel-body">
-                <p>If you don't see your Student Organization listed here, or if you would like to change/update your organization's information, please email <a href="mailto:michael.randle@sjsu.edu">michael.randle@sjsu.edu</a></p>
+                <p>If you don't see your Student Organization listed here, or if you would like to update your organization's information, please email <a href="mailto:michael.randle@sjsu.edu">michael.randle@sjsu.edu</a></p>
 
                 <div class="well">
-                <h4>Black Student Organizations List:</h4>
-                <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#bsoTable">View</button>
-                <a href="dl/bso_table.xlsx">Download (.xlsx)</a>
+                <h4>BSO List</h4>
+                <button id="modal_btn" type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#bsoTable">View</button>
+                <a href="https://docs.google.com/spreadsheets/d/1GzDW0-xZIqjgUyC0REZ9SbQBCC9-f-jzQip2WRi9Qpk/pub?output=pdf">Download (.PDF)</a>
                 </div>
 
                 <!-- Modal -->
@@ -72,7 +83,9 @@
                       </div>
                       <div class="modal-body">
 
-                        <div ng-include="'includes/bso_table.html'"></div>
+                        <!--<div ng-include="'includes/bso_table.html'"></div>-->
+                        
+                          <iframe src="https://docs.google.com/spreadsheets/d/1GzDW0-xZIqjgUyC0REZ9SbQBCC9-f-jzQip2WRi9Qpk/pubhtml?widget=true&amp;headers=false" style="position:relative; border:0; height:715px; width:100%"></iframe>
                         
                       </div>
                       <div class="modal-footer">
