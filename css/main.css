@@ -97,7 +97,7 @@ textarea {
 
 .img .brand{
     max-height: 100%;
-    max-width: 100%; 
+    max-width: 100%;
     overflow: visible;
     padding-top: 0;
     padding-bottom: 0;
@@ -108,9 +108,9 @@ textarea {
     padding-top: 15px;
 }
 
-.navbar{
-    margin-bottom:0;
-  }
+.dropdown-menu{
+  background-color: #F8F8F8;
+}
 
 .about-box {
     max-height: 380px;
@@ -167,17 +167,17 @@ iframe{
 }
 
 /*iframe {
-    width: 98vw; 
+    width: 98vw;
     height: 38vw;
     background:none;
 }
 */
 
-/* set a max-width for horizontal fluid layout and make it centered 
+/* set a max-width for horizontal fluid layout and make it centered
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  max-width: 1600px; 
+  max-width: 1600px;
 }
 */
 
@@ -269,6 +269,103 @@ iframe{
     clear: both;
 }
 
+/* NAVBAR Styles */
+
+.navbar{
+    margin-bottom:0;
+  }
+.navbar-default {
+  background-color: #333333;
+  border-color: #a91000;
+}
+.navbar-inverse .navbar-brand {
+  color: #dfdfdf;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: ##ffffff;
+}
+.navbar-inverse .navbar-text {
+  color: #dfdfdf;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #dfdfdf;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: ##ffffff;
+}
+.navbar-inverse .navbar-nav > li > .dropdown-menu {
+  background-color: #333333;
+}
+.navbar-inverse .navbar-nav > li > .dropdown-menu > li > a {
+  color: #dfdfdf;
+}
+.navbar-inverse .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-inverse .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: ##ffffff;
+  background-color: #a91000;
+}
+.navbar-inverse .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #a91000;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: ##ffffff;
+  background-color: #a91000;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: ##ffffff;
+  background-color: #a91000;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  color: ##ffffff;
+  background-color: #a91000;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: #a91000;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #a91000;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #dfdfdf;
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #dfdfdf;
+}
+.navbar-inverse .navbar-link {
+  color: #dfdfdf;
+}
+.navbar-inverse .navbar-link:hover {
+  color: ##ffffff;
+}
+
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #dfdfdf;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: ##ffffff;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: ##ffffff;
+    background-color: #a91000;
+  }
+}
+
+/* End Navbar Styles */
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
@@ -315,7 +412,7 @@ iframe{
         margin: 15px 0;
     }
     /* since 3.1.0 */
-    .navbar-collapse.collapse.in { 
+    .navbar-collapse.collapse.in {
         display: block!important;
     }
     .collapsing {
